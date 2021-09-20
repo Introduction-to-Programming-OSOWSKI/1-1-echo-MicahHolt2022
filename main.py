@@ -1,6 +1,6 @@
 #defining echo
 def echo(a,b):
     #defining output
-    print(a * b)
-
-
+    return a * b
+#test
+print(echo("Hello",5))
